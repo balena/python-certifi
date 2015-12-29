@@ -1,0 +1,17 @@
+Source: python-certifi
+Section: python
+Priority: optional
+Maintainer: G. B. Versiani <guibv@yahoo.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.5
+Homepage: http://github.com/certifi/python-certifi
+Vcs-Git: http://github.com/certifi/python-certifi.git
+X-Python-Version: >= 2.6
+
+Package: python-certifi
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Curated collection of SSL and TLS Root Certificates
+ Certifi is a carefully curated collection of Root Certificates for validating
+ the trustworthiness of SSL certificates while verifying the identity of TLS
+ hosts. It has been extracted from the Requests project.

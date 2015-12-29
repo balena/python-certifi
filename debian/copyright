@@ -1,0 +1,17 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Upstream-Name: python-certifi
+Upstream-Contact: G. B. Versiani <guibv@yahoo.com>
+Source: http://github.com/certifi/python-certifi
+
+Files: *
+Copyright: 2015, Kenneth Reitz <me@kennethreitz.com>
+License: MPL-2.0
+
+Files: debian/*
+Copyright: 2015, G. B. Versiani <guibv@yahoo.com>
+License: MPL-2.0
+
+License: MPL-2.0
+ This Source Code Form is subject to the terms of the Mozilla Public License,
+ v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain
+ one at http://mozilla.org/MPL/2.0/.
